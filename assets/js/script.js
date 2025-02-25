@@ -4,28 +4,28 @@ const TELEGRAM_CHAT_ID = '6715819149';
 
 const quizData = [
     {
-        question: "What's my favorite color?",
+        question: "What's my favorite color? 🤨",
         answers: { a: "Red", b: "Blue", c: "Green", d: "Black" },
         correct: "d"
     },
     {
-        question: "Which is my favorite movie?",
+        question: "Which is my favorite movie? 😆",
         answers: { a: "Inception", b: "Titanic", c: "Spider Man", d: "Avengers" },
         correct: "a"
     },
     {
-        question: "What's my favorite food?",
-        answers: { a: "Gahori", b: "Maggi", c: "Chowmeen", d: "Momo" },
+        question: "What's my favorite food? 🤤",
+        answers: { a: "Gahori mankho", b: "Maggi", c: "Porotha", d: "Momo" },
         correct: "a"
     },
     {
-        question: "Where would I love to go on vacation?",
+        question: "Where would I love to go on vacation? 🙃",
         answers: { a: "Mama Ghar", b: "Nagaon", c: "Ghorote", d: "Guwahati" },
         correct: "c"
     },
     {
         question: "What's my favorite hobby?",
-        answers: { a: "Reading", b: "Gaming", c: "Cooking", d: "Traveling" },
+        answers: { a: "pohi thoka", b: "Gaming", c: "Xua!💤", d: "Traveling" },
         correct: "b"
     },
     {
