@@ -25,7 +25,7 @@ const quizData = [
     },
     {
         question: "What's my favorite hobby?",
-        answers: { a: "pohi thoka", b: "Gaming", c: "Xua!💤", d: "Traveling" },
+        answers: { a: "pohi thoka 📚", b: "Game Khela", c: "Xua!💤", d: "Traveling" },
         correct: "b"
     },
     {
@@ -39,17 +39,17 @@ const quizData = [
         correct: "d"
     },
     {
-        question: "What kind of music do I prefer?",
+        question: "What kind of music do I prefer? 🎵",
         answers: { a: "Pop", b: "Classical", c: "Rock", d: "Sad" },
         correct: "d"
     },
     {
-        question: "Which sport do I enjoy watching?",
-        answers: { a: "Football", b: "Cricket", c: "Basketball", d: "Batminton" },
-        correct: "b"
+        question: "Moi Loratu Kenekua!? 🙂",
+        answers: { a: "Harami+Val", b: "Dhokebaaz", c: "Ovodro", d: "Bahut Val" },
+        correct: "a"
     },
     {
-        question: "What time of the day do I like the most?",
+        question: "Dinor Kuntu Time Besi val pau?",
         answers: { a: "Morning", b: "Afternoon", c: "Evening", d: "Night" },
         correct: "d"
     }
@@ -111,7 +111,7 @@ function sendToTelegram(message) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ chat_id: TELEGRAM_CHAT_ID, text: message })
     }).then(response => {
-        console.log('Message sent to Telegram');
+        console.log('Thanks For the Answers👌');
     });
 }
 
